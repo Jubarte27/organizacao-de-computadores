@@ -9,7 +9,7 @@
   - [ ] Multiciclo
   - [ ] Pipeline
 - LUI
-  - [ ] Monociclo
+  - [x] Monociclo
   - [ ] Multiciclo
   - [ ] Pipeline
 - SLLI
