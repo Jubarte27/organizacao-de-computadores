@@ -10,11 +10,11 @@
   - [ ] Pipeline
 - LUI
   - [x] Monociclo
-  - [ ] Multiciclo
+  - [x] Multiciclo
   - [ ] Pipeline
 - SLLI
   - [x] Monociclo
-  - [ ] Multiciclo
+  - [x] Multiciclo
   - [ ] Pipeline
 - SLTI
   - [ ] Monociclo
