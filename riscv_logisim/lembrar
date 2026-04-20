@@ -9,6 +9,7 @@
             - Passo 2: 0110111 1 -> 10
             - Passo 3: 0110111 10 -> 7
             - Passo 4: 0110111 7 -> 0
+        - pipeline: 10000111
 - SLLI:
     - opcode: 0010011
     - funct3: 001
@@ -22,6 +23,7 @@
             - Passo 2: 0010011 1 -> 9
             - Passo 3: 0010011 9 -> 7
             - Passo 4: 0010011 7 -> 0
+        - pipeline: 10000110
 
 ## Multiciclo
 
@@ -67,4 +69,8 @@ to
 ``` re
 $1|$2$3|$4$5|$6$7|$8|$9|$10|$11|$12|$13|$14|$15
 ```
-    
+
+### Pipeline
+
+Banco de registradores não escreve "na subida" e lê "na descida" do clock
+- Para não acontecer problema com Read After Write, precisa de 4 de distância entre instruções com esse tipo de dependência 
