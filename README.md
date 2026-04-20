@@ -1,0 +1,22 @@
+# Todo
+
+- JAL
+  - [ ] Monociclo
+  - [ ] Multiciclo
+  - [ ] Pipeline
+- BGEU
+  - [ ] Monociclo
+  - [ ] Multiciclo
+  - [ ] Pipeline
+- LUI
+  - [ ] Monociclo
+  - [ ] Multiciclo
+  - [ ] Pipeline
+- SLLI
+  - [x] Monociclo
+  - [ ] Multiciclo
+  - [ ] Pipeline
+- SLTI
+  - [ ] Monociclo
+  - [ ] Multiciclo
+  - [ ] Pipeline
