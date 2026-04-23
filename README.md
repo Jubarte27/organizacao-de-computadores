@@ -17,6 +17,6 @@
   - [x] Multiciclo
   - [x] Pipeline
 - SLTI
-  - [ ] Monociclo
-  - [ ] Multiciclo
-  - [ ] Pipeline
+  - [x] Monociclo
+  - [x] Multiciclo
+  - [x] Pipeline
