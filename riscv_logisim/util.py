@@ -2,7 +2,7 @@ import os
 import re
 def main():
     pattern = re.compile(r"(^[\da-z](?=[ \n])|(?<= )[\da-z]+(?=[ \n])|(?<= )[\da-z]+$|^[\da-z]+$)|((\b\d+\b)\*(\b[\da-z]+\b))")
-    with open("mem") as mem_file:
+    with open("mem2") as mem_file:
         mem_file.readline()
         for line in mem_file.readlines():
             for cell in pattern.findall(line):
@@ -14,7 +14,7 @@ def main():
         
         mem_file.seek(0)
 
-        target_index = 2
+        target_index = 6
         char = '1'
         
         mem_file.readline()

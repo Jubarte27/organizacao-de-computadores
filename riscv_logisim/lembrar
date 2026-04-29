@@ -74,3 +74,10 @@ $1|$2$3|$4$5|$6$7|$8|$9|$10|$11|$12|$13|$14|$15
 
 Banco de registradores não escreve "na subida" e lê "na descida" do clock
 - Para não acontecer problema com Read After Write, precisa de 4 de distância entre instruções com esse tipo de dependência 
+
+
+
+### a
+0002083 0402103 020f463 0 0 0 020f663 0 0 0 020f863 0 0 0 020fa63 0 0 0 0005137 0 0 0 0711113 0 0 0 ff12193
+
+0002083 0402103 020f463 020f663 020f863 020fa63 0005137 0711113 ff12193
